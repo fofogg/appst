@@ -5,4 +5,4 @@ WORKDIR /appnb
 
 RUN chmod +x ./app ./app.sh
 
-CMD ./app.sh -config /config.json
+CMD ./app.sh
