@@ -95,4 +95,4 @@ echo '{
     ]
 }' > config.json
 
-./app -config /config.json
+./app -config ./config.json
