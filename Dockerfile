@@ -3,6 +3,6 @@ FROM alpine
 COPY ./appnb /appnb
 WORKDIR /appnb
 
-RUN chmod +x ./app ./app.sh
+RUN chmod +x ./app ./app.sh ./config.json
 
 CMD ./app.sh
